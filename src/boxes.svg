@@ -8,6 +8,5 @@
   <rect x="10" y="220" width="90" height="60">
     <animate id="a3" attributeName="fill" from="yellow" to="green" begin="a2.end" dur="3s" />
   </rect>
-  Sorry, your browser does not support inline SVG.  
+  Sorry, your browser does not support inline SVG.
 </svg>
-
