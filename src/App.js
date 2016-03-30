@@ -5,6 +5,7 @@ import column from './Trajans-Column-lower-animated.svg'
 import boxes from './boxes.svg'
 import hobnob from './hobnob_smile.svg'
 import styles from './styles.css'
+import baselines from './baselines.png'
 
 export class App extends Component {
   render() {
@@ -27,6 +28,7 @@ export class App extends Component {
         <svg height='300' width='300'>
           <use xlinkHref={hobnob} />
         </svg>
+        <img src={baselines} />
       </div>
     );
   }

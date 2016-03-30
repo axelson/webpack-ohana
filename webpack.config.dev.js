@@ -22,6 +22,10 @@ module.exports = {
       loaders: ['babel'],
       include: path.join(__dirname, 'src')
     },
+    {
+      test: /\.(eot|woff|woff2|ttf|png|jpg|gif)$/,
+      loader: 'url-loader?limit=9990000&name=[name]-[hash].[ext]'
+    },
     { test: /\.css$/, loader: "style-loader!css-loader" },
     {
       test: /\.svg$/,
