@@ -24,7 +24,7 @@ export class App extends Component {
         <svg>
           <use xlinkHref={column} />
         </svg>
-        <svg height='200' width='200'>
+        <svg height='300' width='300'>
           <use xlinkHref={hobnob} />
         </svg>
       </div>
