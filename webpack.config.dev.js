@@ -21,6 +21,14 @@ module.exports = {
       test: /\.js$/,
       loaders: ['babel'],
       include: path.join(__dirname, 'src')
+    },
+    { test: /\.css$/, loader: "style-loader!css-loader" },
+    {
+      test: /\.svg$/,
+      loader: 'svg-sprite?' + JSON.stringify({
+        name: '[name]_[hash]',
+        prefixize: true
+      })
     }]
   }
 }
